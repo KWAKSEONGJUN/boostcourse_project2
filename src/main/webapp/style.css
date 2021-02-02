@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+	display: flex;
+	position: relative;
+	left: 70px;
+	bottom: 40px;
+}
+
+li {
+	  list-style:none;
+}
+
+
+.rotate {
+	transform: rotate(315deg);
+	float: left;
+}
+
+.new-upload {
+	background: #87CEEB;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+}
+
+.card {
+	background: #50BCDF;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	margin-top:15px
+}
+
+.list {
+	color: white;
+	background: #13264E;
+	width: 250px;
+	height: 35px;
+	padding: 10px;
+	line-height: 35px;
+}
+
